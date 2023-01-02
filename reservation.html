@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reservation.css" />
+    <link rel="stylesheet" href="health.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="fav.png?" type="image/x-icon" />
+    <title>The Royal Table | Reservation</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="health&safety.html">Health & safety</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+        <p class="logo">The Royal Table</p>
+    </nav>
+    <div class="forsmallscreen">
+        <img src="menu.png" alt="" height="30px" id="menu_logo" />
+        <p class="logo_small">The Royal Table</p>
+    </div>
+    <div class="small_screen">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="health&safety.html">Health & safety</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr />
+
+    <div class="res">
+        <h1>Reservation</h1>
+        <p>
+            To make a reservation, simply select the date and time that you would
+            like to dine with us, and choose the number of guests in your party. If
+            you have any special requests or dietary needs, please don't hesitate to
+            let us know in the comments section.
+        </p>
+        <p>
+            We look forward to hosting you at The Royal Table and providing you with
+            a royal dining experience. Thank you for considering us for your next
+            meal out!
+        </p>
+        <div class="form">
+            <form action="#" method="post">
+                <div class="elem-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="Qasim Ali" pattern="[A-Z\sa-z]{3,20}"
+                        required/>
+                </div>
+                <div class="elem-group">
+                    <label for="email">Your E-mail</label>
+                    <input type="email" id="email" name="visitor_email" placeholder="Qasim.Ali@email.com" required />
+                </div>
+                <div class="elem-group">
+                    <label for="phone">Your Phone</label>
+                    <input type="tel" id="phone" name="visitor_phone" placeholder="0300-0344522"
+                         required />
+                </div>
+                <hr />
+                <div class="elem-group inlined">
+                    <label for="adult">Guest</label>
+                    <input type="number" id="guest" name="total_guest" placeholder="2" min="1" required />
+                </div>
+                <div class="elem-group inlined">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required />
+                </div>
+                <div class="elem-group inlined">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="time" required />
+                </div>
+                <hr />
+                <div class="elem-group">
+                    <label for="message">Anything Else?</label>
+                    <textarea id="message" name="customer_message"
+                        placeholder="Tell us anything else that might be important." ></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Address: Clifton, BC V6C 1P7 Located near Szabist University.</p>
+            <p>Email: <a href="mailto:TheRoyalTable@gmail.com">TheRoyalTable@gmail.com</a></p>
+            <p>Call us at: <a href="tel:0330 30304554">0330 30304554</a></p>
+            <p class="copy">&copy;2023-The Royal Table</p>
+    </footer>
+</body>
+
+</html>

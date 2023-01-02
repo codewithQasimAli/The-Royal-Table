@@ -1,0 +1,71 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 1%;
+}
+#nav a {
+  transition: all 600ms ease 0;
+  text-decoration: none;
+  color: rgb(114, 62, 49);
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+#nav li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+#nav .logo {
+  color: rgb(114, 62, 49);
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 2.8rem;
+  overflow: hidden;
+  white-space: normal;
+  padding: 0;
+}
+#nav a:hover {
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: rgb(114, 62, 49);
+}
+section {
+  margin: 3% 2%;
+}
+section h3 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: rgb(114, 62, 49);
+  padding-bottom: 2%;
+}
+section p {
+  padding-bottom: 2%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (max-width: 1204px) {
+  #nav {
+    display: none;
+  }
+  h1 {
+    margin-top: 4%;
+    font-size: 2.4rem;
+  }
+  section h3 {
+    font-size: 1.8rem;
+    padding-bottom: 2%;
+  }
+  section p {
+    padding-bottom: 2%;
+    font-size: 1rem;
+  }
+}
