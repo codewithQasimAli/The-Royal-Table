@@ -218,6 +218,10 @@ hr {
 }
 
 @media only screen and (max-width: 1204px) {
+  header {
+    background-image: url(header-background2.jpg);
+    height: 80vh;
+  }
   .nav {
     display: none;
   }
