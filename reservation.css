@@ -39,6 +39,7 @@ label {
 input,
 select,
 textarea {
+  background-color: transparent;
   border-radius: 2px;
   border: 2px solid rgb(114, 62, 49);
   font-size: 1.25rem;
